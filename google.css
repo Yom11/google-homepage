@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    font: small Arial, sans-serif;
+}
+
 img {
 	height: 150px;
 	margin-top: 12%;
@@ -51,4 +61,37 @@ button:hover{
 
 #text:hover{
 	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.16), 2px 2px 5px 3px rgba(0, 0, 0, 0.08);
+}
+
+#header{
+	list-style: none;
+}
+
+li{
+	display: inline;
+}
+
+#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(242, 242, 242);
+    border-top: 1px solid rgb(228, 228, 228);
+    height:  30px;
+}
+
+#l_foot{
+	margin-top: 8px;
+	margin-left: 10px;
+	float:left;
+}
+
+#r_foot{
+	margin-top: 8px;
+	float:right;
+	margin-right: 10px;
+}
+
+li a:hover{
+	color:#989898;
 }
