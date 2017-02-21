@@ -1,0 +1,54 @@
+img {
+	height: 150px;
+	margin-top: 12%;
+   margin-left: 230px;
+}
+
+#text{
+	width: 40%;
+	height: 35px;
+	border-radius: 1px;
+}
+
+div{
+	margin-top: 25px;
+}
+
+div input{
+	height: 30px;
+	color: #757575;
+	border-radius: 2px;
+	width: 130px;
+}
+
+div input:hover{
+	background-color: #ececec;
+}
+
+div a{
+	text-decoration: none;
+	color: #3c3c3c;
+}
+
+.header{
+	float: right;
+}
+
+a{
+    margin-right: 10px;
+}
+
+button{
+	margin-right: 30px;
+	height: 30px;
+	width: 80px;
+	color: #757575;
+}
+
+button:hover{
+	background-color: #ececec;
+}
+
+#text:hover{
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.16), 2px 2px 5px 3px rgba(0, 0, 0, 0.08);
+}
